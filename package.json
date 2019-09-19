@@ -8,8 +8,8 @@
     "dev:w": "./node_modules/.bin/webpack --mode=none -w",
     "build": "./node_modules/.bin/webpack --mode=production",
     "start:dev": "./node_modules/.bin/webpack-dev-server",
-    "start": "node server.js", // serves the application
-    "heroku-postbuild": "webpack -p", // runs after installation
+    "start": "node server.js", 
+    "heroku-postbuild": "webpack -p", 
     "start2": "npm run build && node server.js"
   },
   "author": "SendBird",
