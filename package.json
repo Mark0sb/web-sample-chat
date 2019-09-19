@@ -9,7 +9,7 @@
     "build": "./node_modules/.bin/webpack --mode=production",
     "start:dev": "./node_modules/.bin/webpack-dev-server",
     "start": "node server.js", 
-    "heroku-postbuild": "webpack -p", 
+    "heroku-postbuild": "./node_modules/.bin/webpack --mode=production", 
     "start2": "npm run build && node server.js"
   },
   "author": "SendBird",
